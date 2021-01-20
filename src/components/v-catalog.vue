@@ -4,20 +4,23 @@
             <div class="v-catalog__link_to_cart">Cart: {{CART.length}}</div>
         </router-link>
 
-        <h1>Catalog</h1>
+<!--        <h1>Catalog</h1>-->
         <div class="v-catalog__list">
             <vCatalogItem
                     v-for="product in PRODUCTS"
                     :key="product.article"
                     :product_data="product"
                     @addToCart="addToCart"
+                    @itemId="itemId"
             />
         </div>
+<!--        <vTest/>-->
     </div>
 </template>
 
 <script>
     import vCatalogItem from './v-catalog-item';
+    // import vTest from './v-test';
     import {mapActions, mapGetters} from 'vuex';
     export default {
         name: "v-catalog",
@@ -42,6 +45,9 @@
             ]),
             addToCart(data){
                 this.ADD_TO_CART(data)
+            },
+            itemId(id){
+                console.log(id)
             }
         },
         mounted(){

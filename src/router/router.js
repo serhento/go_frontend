@@ -3,11 +3,12 @@ import Router from 'vue-router';
 
 import vCatalog from '../components/v-catalog';
 import vCart from '../components/v-cart';
-import vCartItem from '../components/v-cart-item';
+import vTest from '../components/v-test';
 
 Vue.use(Router);
 
 let router = new Router({
+    mode: 'history',
     routes:[
         {
             path: '/',
@@ -21,9 +22,9 @@ let router = new Router({
             props: true
         },
         {
-            path: '/catalog-item',
-            name: 'cart-item',
-            component: vCartItem,
+            path: '/:id',
+            name: 'test',
+            component: vTest,
             props: true
         }
     ]

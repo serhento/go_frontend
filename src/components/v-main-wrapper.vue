@@ -1,5 +1,6 @@
 <template>
     <div class="v-main-wrapper">
+        <h1>Catalog</h1>
         <keep-alive>
             <router-view>
 

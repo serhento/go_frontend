@@ -1,6 +1,7 @@
 {
   "products": [
     {
+      "id": 1,
       "image": "1.jpg",
       "name": "T-shirt 1",
       "price": 100,
@@ -9,6 +10,7 @@
       "category": "Мужские"
     },
     {
+      "id": 2,
       "image": "2.jpg",
       "name": "T-shirt 2",
       "price": 150,
@@ -17,6 +19,7 @@
       "category": "Женские"
     },
     {
+      "id": 3,
       "image": "3.jpg",
       "name": "T-shirt 3",
       "price": 250,
@@ -25,6 +28,7 @@
       "category": "Женские"
     },
     {
+      "id": 4,
       "image": "4.jpg",
       "name": "T-shirt 4",
       "price": 200,
@@ -33,6 +37,7 @@
       "category": "Мужские"
     },
     {
+      "id": 5,
       "image": "5.jpg",
       "name": "T-shirt 5",
       "price": 235,
@@ -41,6 +46,7 @@
       "category": "Женские"
     },
     {
+      "id": 6,
       "image": "6.jpg",
       "name": "T-shirt 6",
       "price": 170,
